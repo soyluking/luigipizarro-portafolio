@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Fira_Code } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 
 const fira = Fira_Code({ subsets: ['latin'] });
@@ -44,6 +45,7 @@ export default function RootLayout({
         {children}
 
         <SpeedInsights />
+        <Analytics />
       </body>
 
       {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS && (
