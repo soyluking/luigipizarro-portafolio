@@ -17,13 +17,16 @@ export default function Home() {
 
             <div className="dark:text-neutral-400 flex flex-col gap-6 md:text-lg md:leading-relaxed">
               <h2>
-                ¡Hola! Soy Luigi Pizarro, ingeniero de software con más de 10
-                años de experiencia en el desarrollo de productos digitales que
-                destacan por su funcionalidad y diseño atractivo.
+                ¡Hola! Soy Luigi Pizarro, ingeniero de software con más de{' '}
+                <strong className="font-semibold dark:text-white">
+                  10 años de experiencia
+                </strong>{' '}
+                en el desarrollo de productos digitales que destacan por su
+                funcionalidad y diseño atractivo.
               </h2>
 
               <p>
-                Actualmente, trabajo como{' '}
+                Actualmente, soy{' '}
                 <strong className="font-semibold dark:text-white">
                   Software Engineer
                 </strong>{' '}
@@ -37,15 +40,17 @@ export default function Home() {
                 >
                   Xepelin
                 </a>
-                , una fintech chilena y{' '}
+                , una fintech chilena, donde optimizo el proceso de onboarding
+                de nuestros usuarios. También{' '}
                 <strong className="font-semibold dark:text-white">
                   emprendo
                 </strong>{' '}
-                en proyectos personales. Anteriormente,{' '}
+                proyectos personales, donde exploro nuevas tecnologías y
+                metodologías. Anteriormente,{' '}
                 <strong className="font-semibold dark:text-white">
                   lideré
                 </strong>{' '}
-                el equipo de desarrollo frontend en{' '}
+                el equipo frontend en{' '}
                 <a
                   className="hover:text-yellow-500 underline"
                   href="https://www.meatcode.cl/"
@@ -63,7 +68,7 @@ export default function Home() {
               </p>
             </div>
 
-            <Skills className="mt-4 md:mt-10" />
+            <Skills className="mt-4 md:mt-8" />
           </div>
         </Container>
       </section>
