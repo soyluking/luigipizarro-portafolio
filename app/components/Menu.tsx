@@ -38,6 +38,11 @@ export default function Menu({ className = '' }: MenuProps) {
           Descargar CV
         </a>
       </li>
+      <li className="text-sm">
+        <span className="text-neutral-600 dark:text-neutral-400">
+          Santiago, Chile 🇨🇱
+        </span>
+      </li>
     </ul>
   );
 }

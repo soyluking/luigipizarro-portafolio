@@ -8,10 +8,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col">
       <Header />
 
-      <section className="flex items-center min-h-screen justify-start py-8 md:py-20">
+      <section className="flex items-center md:min-h-screen justify-start py-8 md:py-20">
         <Container>
           <div className="flex flex-col gap-10 md:gap-12 max-w-screen-lg">
-            <h1 className="font-semibold text-5xl leading-tight md:text-6xl md:leading-tight">
+            <h1 className="font-semibold text-[2.75rem] leading-tight md:text-6xl md:leading-tight">
               Creando productos digitales de alto impacto
             </h1>
 
@@ -37,8 +37,11 @@ export default function Home() {
                 >
                   Xepelin
                 </a>
-                , una fintech líder en soluciones financieras para empresas en
-                Latam. Anteriormente,{' '}
+                , una fintech chilena y{' '}
+                <strong className="font-semibold dark:text-white">
+                  emprendo
+                </strong>{' '}
+                en proyectos personales. Anteriormente,{' '}
                 <strong className="font-semibold dark:text-white">
                   lideré
                 </strong>{' '}
@@ -52,15 +55,11 @@ export default function Home() {
                 >
                   MEAT Code
                 </a>
-                ,{' '}
-                <strong className="font-semibold dark:text-white">
-                  emprendí
-                </strong>{' '}
-                en proyectos personales y{' '}
+                , y{' '}
                 <strong className="font-semibold dark:text-white">
                   compartí
                 </strong>{' '}
-                mi conocimiento como educador web.
+                mis conocimientos como educador web.
               </p>
             </div>
 
@@ -69,9 +68,9 @@ export default function Home() {
         </Container>
       </section>
 
-      <section className="py-8 md:hidden">
+      <section className="pt-8 pb-12 md:hidden">
         <Container>
-          <Menu className="flex flex-col items-center gap-4" />
+          <Menu className="flex flex-col md:items-center gap-4" />
         </Container>
       </section>
     </main>
