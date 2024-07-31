@@ -12,17 +12,17 @@ export const metadata: Metadata = {
   description:
     'Desarrollador de software con más de 10 años de experiencia creando productos digitales que combinan funcionalidad y diseño impactante. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
   robots: 'index, follow',
-  alternates: { canonical: 'https://luigipizarro.com/' },
+  alternates: { canonical: process.env.NEXT_PUBLIC_BASE_URL },
   openGraph: {
     type: 'website',
-    url: 'https://luigipizarro.com/',
+    url: process.env.NEXT_PUBLIC_BASE_URL,
     title: 'Luigi Pizarro | Desarrollador de Software',
     description:
       'Más de 10 años de experiencia creando productos digitales que combinan funcionalidad y diseño impactante. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
     siteName: 'Luigi Pizarro',
     images: [
       {
-        url: 'https://luigipizarro.com/social-image.png',
+        url: `${process.env.NEXT_PUBLIC_BASE_URL}/social-image.png`,
       },
     ],
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@soyluking',
     creator: '@soyluking',
-    images: 'https://luigipizarro.com/social-image.png',
+    images: `${process.env.NEXT_PUBLIC_BASE_URL}/social-image.png`,
   },
 };
 
