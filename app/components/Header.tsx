@@ -13,7 +13,7 @@ export default function Header() {
               <a
                 className="font-semibold text-xl md:text-xl"
                 href="/"
-                title="Luigi Pizarro | Ingeniero de Software"
+                title="Luigi Pizarro | Líder Técnico e Ingeniero de Software"
               >
                 Luigi
               </a>

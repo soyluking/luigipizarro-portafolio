@@ -8,17 +8,17 @@ import './globals.css';
 const fira = Fira_Code({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Luigi Pizarro | Desarrollador de Software',
+  title: 'Luigi Pizarro | Líder Técnico e Ingeniero de Software',
   description:
-    'Desarrollador de software con más de 10 años de experiencia creando productos digitales que combinan funcionalidad y diseño impactante. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
+    'Más de 10 años de experiencia en el desarrollo de productos digitales enfocados en funcionalidad y diseño. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
   robots: 'index, follow',
   alternates: { canonical: process.env.NEXT_PUBLIC_BASE_URL },
   openGraph: {
     type: 'website',
     url: process.env.NEXT_PUBLIC_BASE_URL,
-    title: 'Luigi Pizarro | Desarrollador de Software',
+    title: 'Luigi Pizarro | Líder Técnico e Ingeniero de Software',
     description:
-      'Más de 10 años de experiencia creando productos digitales que combinan funcionalidad y diseño impactante. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
+      'Más de 10 años de experiencia en el desarrollo de productos digitales enfocados en funcionalidad y diseño. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
     siteName: 'Luigi Pizarro',
     images: [
       {

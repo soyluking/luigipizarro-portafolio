@@ -12,23 +12,24 @@ export default function Home() {
         <Container>
           <div className="flex flex-col gap-10 md:gap-12 max-w-screen-lg">
             <h1 className="font-semibold text-[2.75rem] leading-tight md:text-6xl md:leading-tight">
-              Creando productos digitales de alto impacto
+              Transformando ideas en productos digitales
             </h1>
 
             <div className="dark:text-neutral-400 flex flex-col gap-6 md:text-lg md:leading-relaxed">
               <h2>
-                ¡Hola! Soy Luigi Pizarro, ingeniero de software con más de{' '}
+                ¡Hola! Soy Luigi Pizarro, líder técnico e ingeniero de software
+                con más de{' '}
                 <strong className="font-semibold dark:text-white">
                   10 años de experiencia
                 </strong>{' '}
-                en el desarrollo de productos digitales que destacan por su
-                funcionalidad y diseño atractivo.
+                en el desarrollo de productos digitales enfocados en
+                funcionalidad y diseño.
               </h2>
 
               <p>
                 Actualmente, soy{' '}
                 <strong className="font-semibold dark:text-white">
-                  Software Engineer
+                  Líder Técnico
                 </strong>{' '}
                 en{' '}
                 <a
@@ -40,31 +41,21 @@ export default function Home() {
                 >
                   Xepelin
                 </a>
-                , una fintech chilena, donde optimizo el proceso de onboarding
-                de nuestros usuarios. También{' '}
+                , una fintech chilena, donde impulso soluciones clave para el
+                negocio y optimizo procesos críticos. Además, me apasiona{' '}
                 <strong className="font-semibold dark:text-white">
-                  emprendo
+                  emprender
                 </strong>{' '}
-                proyectos personales, donde exploro nuevas tecnologías y
-                metodologías. Anteriormente,{' '}
+                proyectos personales donde exploro nuevas tecnologías y
+                metodologías. Como{' '}
                 <strong className="font-semibold dark:text-white">
-                  lideré
-                </strong>{' '}
-                el equipo frontend en{' '}
-                <a
-                  className="hover:text-yellow-500 underline"
-                  href="https://www.meatcode.cl/"
-                  target="_blank"
-                  rel="noopener"
-                  title="Ir al sitio web de la empresa MEAT Code"
-                >
-                  MEAT Code
-                </a>
-                , y{' '}
+                  mentor
+                </strong>
+                , guío a ingenieros en su desarrollo profesional,{' '}
                 <strong className="font-semibold dark:text-white">
-                  compartí
+                  compartiendo
                 </strong>{' '}
-                mis conocimientos como educador web.
+                conocimientos y promoviendo buenas prácticas.
               </p>
             </div>
 
