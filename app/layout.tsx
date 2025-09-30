@@ -1,25 +1,25 @@
-import type { Metadata } from 'next';
-import { Fira_Code } from 'next/font/google';
-import { GoogleAnalytics } from '@next/third-parties/google';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
-import './globals.css';
+import type { Metadata } from "next";
+import { Fira_Code } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
+import "./globals.css";
 
-const fira = Fira_Code({ subsets: ['latin'] });
+const fira = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Luigi Pizarro | Líder Técnico e Ingeniero de Software',
+  title: "Luigi Pizarro | Líder Técnico e Ingeniero de Software",
   description:
-    'Más de 10 años de experiencia en el desarrollo de productos digitales enfocados en funcionalidad y diseño. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
-  robots: 'index, follow',
+    "Líder técnico con 10 años de experiencia. Especializado en AI, productividad y desarrollo de productos digitales. Fundador de Extasiados.",
+  robots: "index, follow",
   alternates: { canonical: process.env.NEXT_PUBLIC_BASE_URL },
   openGraph: {
-    type: 'website',
+    type: "website",
     url: process.env.NEXT_PUBLIC_BASE_URL,
-    title: 'Luigi Pizarro | Líder Técnico e Ingeniero de Software',
+    title: "Luigi Pizarro | Líder Técnico e Ingeniero de Software",
     description:
-      'Más de 10 años de experiencia en el desarrollo de productos digitales enfocados en funcionalidad y diseño. Javascript, React, TypeScript, Next.js, Node, React Native, CSS, Performance, WordPress, Shopify.',
-    siteName: 'Luigi Pizarro',
+      "Líder técnico con 10 años de experiencia. Especializado en AI, productividad y desarrollo de productos digitales. Fundador de Extasiados.",
+    siteName: "Luigi Pizarro",
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/social-image.png`,
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    site: '@soyluking',
-    creator: '@soyluking',
+    card: "summary_large_image",
+    site: "@soyluking",
+    creator: "@soyluking",
     images: `${process.env.NEXT_PUBLIC_BASE_URL}/social-image.png`,
   },
 };
